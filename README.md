@@ -1,7 +1,7 @@
 
 <p align="center">
-    <a href=""><img src="https://img.shields.io/pypi/l/ansicolortags.svg" /></a>
-    <a href=""><img src="https://badgen.net/github/commits/jonrosenblum/NFL-Analytics-Dashboard" /></a>
+    </a>
+    </a>
     <br>
     <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-%2320232a?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
    

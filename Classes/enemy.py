@@ -8,7 +8,7 @@ from Classes.player import Player
 DEMENTOR_IMAGE = pygame.image.load(os.path.join('Assets', 'death_eater.png'))
 
 #initiating the class of the enemy 
-class Enemy(Game):
+class Enemy(Game):w
     def __init__(self):
         super().__init__()
         self.width = 100
