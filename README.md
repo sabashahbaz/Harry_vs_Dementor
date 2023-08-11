@@ -15,19 +15,19 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Description](#description)
 - [Technical Requirements](#technical-requirements)
 - [Project Structure](#project-structure)
-- [Key Functionalities](#key-functionalities)
+- [Gameplay Features](#gameplay-features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Description
 
-The NFL Player Statistics Dashboard provides an interactive way to visualize player statistics from 2019 to 2022 for different positions: quarterbacks (QB), running backs (RB), and wide receivers (WR). Users can select specific players and view various statistics, including passing yards, touchdowns, interceptions, rushing yards, rush touchdowns, rushing attempts, receiving yards, receptions, and receiving touchdowns.
+"Harry vs. Dementors" is an exciting game developed using the Python programming language and the Pygame library. In this game, players take on the role of Harry Potter, who must fend off waves of Dementors that are attacking from the top of the screen. As Harry, you'll have to dodge the Dementors' shots while using your magical abilities to shoot them down.
 
 ## Technical Requirements
 
@@ -60,16 +60,49 @@ Harry_VS_DEMENTOR-dashboard/
 - `Pipfile` and `Pipfile.lock`: Files specifying project dependencies when using `pipenv`.
 - `README.md`: Project documentation providing an overview, setup instructions, and other details.
 
-## Key Functionalities
+## Gameplay Features
 
-The Harry Potter vs Dementor Game offers the following functionalities:
+Gameplay Features:
 
-- Choose a player's position: quarterbacks, running backs, or wide receivers.
-- Select a specific player from the dropdown menu.
-- Choose from various statistics for the selected player using radio items.
-- View bar graphs illustrating the selected player's statistics over different game IDs.
+Control Harry Potter's movement at the bottom of the screen using arrow keys.
+Shoot spells at the Dementors using the left shift key to eliminate them.
+Dodge the incoming shots from the Dementors to avoid losing health.
+Dementors at the top of the screen shoot spells towards Harry, adding an element of challenge and strategy to the game.
+Defeating Dementors earns you points, while getting hit by their spells reduces your health.
+The game features dynamic visuals, including character animations and spell effects, thanks to the Pygame library.
 
-## Getting Started
+## Objectives
+
+Objective:
+Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.
+
+## How to Play:
+
+How to Play:
+
+Install Python and the Pygame library.
+Run the game's main script to start playing.
+Use arrow keys to move Harry Potter left and right.
+Press the left shift key to shoot spells at the Dementors.
+Dodge incoming spells from the Dementors to avoid losing health.
+Eliminate Dementors to earn points and increase your score.
+
+## Controls 
+
+Controls:
+
+Arrow Left: Move Harry left
+Arrow Right: Move Harry right
+Left Shift: Shoot spells
+Installation:
+
+Ensure you have Python (version X.X or later) installed.
+Install the Pygame library using pip install pygame.
+Clone this repository or download the source code.
+Run the game by executing the main script.
+
+
+## Installation: 
 
 1. Clone this repository to your local machine:
 
@@ -80,7 +113,7 @@ git clone https://github.com/jonrosenblum/nfl-player-stats-dashboard.git
 2. Navigate to the project directory:
 
 ```bash
-cd nfl-player-stats-dashboard
+cd Harry_vs_Dementor
 ```
 
 3. Install the required dependencies using pipenv:
@@ -108,10 +141,13 @@ The game relies on the following libraries:
 
 - Pygame: A web application framework for building interactive web applications with Python.
 
+## Contributions
 
-## Contributing
+Contributions to the game are welcome! If you'd like to add features, fix bugs, or enhance the gameplay, feel free to fork this repository and create a pull request.
 
-Contributions to the Harry Potter vs Dementors game are welcome! If you encounter any issues, have feature suggestions, or would like to contribute code, please open an issue or pull request on the GitHub repository.
+## Acknowledgments
+
+This game was inspired by the magical world of Harry Potter and created using the Pygame library, a fantastic tool for game development in Python.
 
 ## License
 
