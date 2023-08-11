@@ -7,10 +7,10 @@
 </p>
 
 <h1 align="center"><b>Harry Potter vs Dementors</b></h1>
-<h4 align="center"> A simple game using Pygame </h4>
+<h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
 <p align="center">
-    <img src="https://www.texomashomepage.com/wp-content/uploads/sites/41/2022/01/harry-potter-light.jpg?strip=1" alt="Project Banner" width=60% height=60%/>
+    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=40% height=40%/>
 </p>
 
 ## Table of Contents
@@ -19,8 +19,8 @@
 - [Technical Requirements](#technical-requirements)
 - [Project Structure](#project-structure)
 - [Gameplay Features](#gameplay-features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
+- [How to Play](#How-to-play)
+- [Controls](#controls)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -54,9 +54,7 @@ Harry_VS_DEMENTOR-dashboard/
 ├── Pipfile
 └── README.md
 ```
-
-- `data/`: Directory containing the dataset `nfl_offensive_stats.csv`.
-- `app.py`: Main application file containing the Dash app code and callbacks.
+- Classes : Main application file containing the Dash app code and callbacks.
 - `Pipfile` and `Pipfile.lock`: Files specifying project dependencies when using `pipenv`.
 - `README.md`: Project documentation providing an overview, setup instructions, and other details.
 
@@ -71,35 +69,7 @@ Dementors at the top of the screen shoot spells towards Harry, adding an element
 Defeating Dementors earns you points, while getting hit by their spells reduces your health.
 The game features dynamic visuals, including character animations and spell effects, thanks to the Pygame library.
 
-## Objectives
-
-Objective:
-Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.
-
 ## How to Play:
-
-How to Play:
-
-Install Python and the Pygame library.
-Run the game's main script to start playing.
-Use arrow keys to move Harry Potter left and right.
-Press the left shift key to shoot spells at the Dementors.
-Dodge incoming spells from the Dementors to avoid losing health.
-Eliminate Dementors to earn points and increase your score.
-
-## Controls 
-
-Controls:
-
-Arrow Left: Move Harry left
-Arrow Right: Move Harry right
-Left Shift: Shoot spells
-Installation:
-
-Ensure you have Python (version X.X or later) installed.
-Install the Pygame library using pip install pygame.
-Clone this repository or download the source code.
-Run the game by executing the main script.
 
 
 ## Installation: 
@@ -126,14 +96,36 @@ pipenv install
 
 ```bash
 pipenv run python app.py
-```
 
-## Usage
+````````````
 
-1. Choose a position (Quarterbacks, Running Backs, or Wide Receivers) from the tabs.
-2. Select a player from the dropdown menu.
-3. Use the radio items to choose the desired statistic.
-4. Observe the corresponding bar graph showing the player's statistics.
+
+
+How to Play:
+
+Install Python and the Pygame library.
+
+Run the game's main script to start playing.
+Use arrow keys to move Harry Potter left and right.
+Press the left shift key to shoot spells at the Dementors.
+Dodge incoming spells from the Dementors to avoid losing health.
+Eliminate Dementors to earn points and increase your score.
+
+## Controls 
+
+Controls:
+
+Arrow Left: Move Harry left
+Arrow Right: Move Harry right
+Left Shift: Shoot spells
+Installation:
+
+Ensure you have Python (version X.X or later) installed.
+Install the Pygame library using pip install pygame.
+Clone this repository or download the source code.
+Run the game by executing the main script.
+
+``````
 
 ## Dependencies
 
