@@ -4,14 +4,10 @@
     </a>
     <br>
     <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-%2320232a?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
-   
-    <br>
-   
-
 </p>
 
 <h1 align="center"><b>Harry Potter vs Dementors</b></h1>
-<h4 align="center"> A simple game using Pygamegit chekcout </h4>
+<h4 align="center"> A simple game using Pygame </h4>
 
 <p align="center">
     <img src="https://www.texomashomepage.com/wp-content/uploads/sites/41/2022/01/harry-potter-light.jpg?strip=1" alt="Project Banner" width=60% height=60%/>
@@ -35,27 +31,26 @@ The NFL Player Statistics Dashboard provides an interactive way to visualize pla
 
 ## Technical Requirements
 
-To run the NFL Player Statistics Dashboard locally, you need the following:
+To run the game locally, you need the following:
 
 - Python 3.7 or later
-- Dash 1.21.0 or later
-- Plotly 5.0.0 or later
-- Pandas 1.1.0 or later
+
 
 ## Project Directory Hierarchy
 
 Upon successful setup (see **Getting Started**), you should see the following project directory hierarchy.
 
 ```
-nfl-player-stats-dashboard/
-├── data/
-│ └── nfl_offensive_stats.csv
-├── notebooks/
-│ └── .ipynb_checkpoints/
-│ │     └── .eda-checkpoints.ipynb
-│ └── nfl-investigative_analysis.ipynb
-├── app.py
-├── OBJECTIVES.md
+Harry_VS_DEMENTOR-dashboard/
+├── __pycache__
+├── .venv
+├── Assets
+├── Classes
+│  └──  bullet.py
+│  └──  enemy.py
+│  └──  game.py
+│  └──  main.py
+│  └──  player.py
 ├── Pipfile
 └── README.md
 ```
@@ -67,7 +62,7 @@ nfl-player-stats-dashboard/
 
 ## Key Functionalities
 
-The NFL Player Statistics Dashboard offers the following functionalities:
+The Harry Potter vs Dementor Game offers the following functionalities:
 
 - Choose a player's position: quarterbacks, running backs, or wide receivers.
 - Select a specific player from the dropdown menu.
@@ -116,7 +111,7 @@ The game relies on the following libraries:
 
 ## Contributing
 
-Contributions to the NFL Player Statistics Dashboard are welcome! If you encounter any issues, have feature suggestions, or would like to contribute code, please open an issue or pull request on the GitHub repository.
+Contributions to the Harry Potter vs Dementors game are welcome! If you encounter any issues, have feature suggestions, or would like to contribute code, please open an issue or pull request on the GitHub repository.
 
 ## License
 
