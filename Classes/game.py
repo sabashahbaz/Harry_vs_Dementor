@@ -10,7 +10,7 @@ class Game:
         self.win_height = 700
         self.window = pygame.display.set_mode((700, 700))
         self.background = pygame.transform.scale(pygame.image.load(
-            os.path.join('Assets', 'Room_of_Requirement.png')), (self.win_width, self.win_height))
+            os.path.join('../Assets', 'Room_of_Requirement.png')), (self.win_width, self.win_height))
         
     
     def draw_window(self):

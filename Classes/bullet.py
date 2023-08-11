@@ -1,8 +1,8 @@
 import pygame
 import os
-from Classes.player import Player
-from Classes.game import Game
-from Classes.enemy import Enemy
+from player import Player
+from game import Game
+from enemy import Enemy
 pygame.mixer.init()
 
 BLUE = (209,238,238)
@@ -24,7 +24,7 @@ BULLET_VEL = 7
 class Bullets(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite(self)
-        self.image = pygame.image.load("Assets/laser.png")
+        self.image = pygame.image.load("../Assets/laser.png")
         self.rect = self.image.get_rect()
         self.rect.center = [x,y]
 

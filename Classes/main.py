@@ -1,9 +1,9 @@
 import pygame
 import os
-from Classes.game import Game
-from Classes.player import Player
-from Classes.enemy import Enemy
-from Classes.bullet import Bullet 
+from game import Game
+from player import Player
+from enemy import Enemy
+#from bullet import Bullet 
 
 #call the methods from other classes
 def main():
@@ -14,7 +14,7 @@ def main():
     game = Game()
     player = Player()
     enemy = Enemy ()
-    bullet = Bullet ()
+   # bullet = Bullet ()
 
     #Ensuring the game runs at a constistent speed of 60 frames per second
     clock = pygame.time.Clock()
@@ -35,7 +35,7 @@ def main():
         enemy.draw_enemy()
         enemy.update()
         
-        bullet.update()
+        #bullet.update()
 
     
     pygame.quit()

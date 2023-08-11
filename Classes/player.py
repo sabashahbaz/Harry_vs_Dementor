@@ -1,9 +1,9 @@
 import pygame
 import os
-from Classes.game import Game
+from game import Game
 pygame.font.init()
 
-USER_IMAGE = pygame.image.load(os.path.join('Assets', 'user.png'))
+USER_IMAGE = pygame.image.load(os.path.join('../Assets', 'user.png'))
 VEL = 5
 
 # BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join('Assets', 'Grenade+1.mp3'))
