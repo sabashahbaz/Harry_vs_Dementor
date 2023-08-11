@@ -10,7 +10,7 @@
 <h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
 <p align="center">
-    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=60% height=30%/>
+    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=30% height=30%/>
 </p>
 
 ## Table of Contents
@@ -69,8 +69,6 @@ Dementors at the top of the screen shoot spells towards Harry, adding an element
 Defeating Dementors earns you points, while getting hit by their spells reduces your health.
 The game features dynamic visuals, including character animations and spell effects, thanks to the Pygame library.
 
-## How to Play:
-
 
 ## Installation: 
 
@@ -102,17 +100,11 @@ pipenv run python app.py
 python -m pip install -U pygame==2.5.0 --user
 ```
 
-````````````
 
-Run the game's main script to start playing.
-Use arrow keys to move Harry Potter left and right.
-Press the left shift key to shoot spells at the Dementors.
-Dodge incoming spells from the Dementors to avoid losing health.
-Eliminate Dementors to earn points and increase your score.
 
-## Controls 
+## How to Play 
 
-Controls:
+How to Play:
 
 Arrow Left: Move Harry left
 Arrow Right: Move Harry right
@@ -124,7 +116,6 @@ Install the Pygame library using pip install pygame.
 Clone this repository or download the source code.
 Run the game by executing the main script.
 
-``````
 
 ## Dependencies
 
