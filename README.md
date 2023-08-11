@@ -20,9 +20,9 @@
 - [Project Structure](#project-structure)
 - [Gameplay Features](#gameplay-features)
 - [How to Play](#How-to-play)
-- [Controls](#controls)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
+- [Acknowledgments] (#acknowledgments)
 - [License](#license)
 
 ## Description
@@ -60,15 +60,12 @@ Harry_VS_DEMENTOR-dashboard/
 
 ## Gameplay Features
 
-Gameplay Features:
-
 Control Harry Potter's movement at the bottom of the screen using arrow keys.
 Shoot spells at the Dementors using the left shift key to eliminate them.
 Dodge the incoming shots from the Dementors to avoid losing health.
 Dementors at the top of the screen shoot spells towards Harry, adding an element of challenge and strategy to the game.
 Defeating Dementors earns you points, while getting hit by their spells reduces your health.
 The game features dynamic visuals, including character animations and spell effects, thanks to the Pygame library.
-
 
 ## Installation: 
 
@@ -100,34 +97,27 @@ pipenv run python app.py
 python -m pip install -U pygame==2.5.0 --user
 ```
 
-
-
-## How to Play 
-
-How to Play:
+## How to Play:
+Run the game by executing the main script.
 
 Arrow Left: Move Harry left
 Arrow Right: Move Harry right
+Arrow Up: Move Harry up
+Arrow Down: Move Harry down
+
 Left Shift: Shoot spells
-Installation:
 
-Ensure you have Python (version X.X or later) installed.
-Install the Pygame library using pip install pygame.
-Clone this repository or download the source code.
-Run the game by executing the main script.
-
-
-## Dependencies
+## Dependencies:
 
 The game relies on the following libraries:
 
 - Pygame: A web application framework for building interactive web applications with Python.
 
-## Contributions
+## Contributions:
 
 Contributions to the game are welcome! If you'd like to add features, fix bugs, or enhance the gameplay, feel free to fork this repository and create a pull request.
 
-## Acknowledgments
+## Acknowledgments:
 
 This game was inspired by the magical world of Harry Potter and created using the Pygame library, a fantastic tool for game development in Python.
 
