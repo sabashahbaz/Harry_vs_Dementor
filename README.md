@@ -10,7 +10,7 @@
 <h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
 <p align="center">
-    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=600% height=100%/>
+    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=600% height=50%/>
 </p>
 
 ## Table of Contents
