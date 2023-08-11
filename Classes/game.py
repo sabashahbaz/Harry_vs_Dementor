@@ -3,6 +3,7 @@ import os
 
 pygame.display.set_caption("Harry vs Dementor")
 
+#setting the window of the game 
 class Game: 
     def __init__(self):
         self.win_width = 700

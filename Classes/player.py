@@ -1,6 +1,6 @@
 import pygame
 import os
-from game import Game
+from Classes.game import Game
 pygame.font.init()
 
 USER_IMAGE = pygame.image.load(os.path.join('Assets', 'user.png'))
@@ -13,6 +13,7 @@ RED = (255, 0, 0)
 BLACK = (0,0,0)
 # BORDER = pygame.Rect(900//2 -5, 0, 5, 500)
 
+#initiating the player class with its width, height and position 
 class Player(Game):
     def __init__(self):
         super().__init__()
@@ -22,13 +23,15 @@ class Player(Game):
         self.y = 590
         self.vel = 5
     
+    #Setting the image of the sprite
     def draw_player(self):
         self.user_image = pygame.transform.rotate(pygame.transform.scale(USER_IMAGE, (self.width, self.height)), 0)
         self.window.blit(self.user_image, (self.x, self.y))
         # pygame.draw.rect(self.window, BLACK, BORDER)
-        for bullet in user_bullets:
-            pygame.draw.rect(self.window,RED, bullet)
+        # for bullet in user_bullets:
+        #     pygame.draw.rect(self.window,RED, bullet)
 
+    #defining the keys that are pressed and moving the player
     def player_movement(self):
         keys_pressed = pygame.key.get_pressed()
         if keys_pressed[pygame.K_LEFT] and self.x - VEL > 0: #left
@@ -40,6 +43,7 @@ class Player(Game):
         if keys_pressed[pygame.K_DOWN] and self.y + VEL + self.height < 750 > 0: #down
             self.y += VEL
 
+    #displaying the points of the player 
     def player_display_points(self):
         points = 0 
         dementor_lives =10

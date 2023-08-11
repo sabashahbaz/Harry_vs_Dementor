@@ -1,19 +1,22 @@
 import pygame
 import os
-from game import Game
-from player import Player
-from enemy import Enemy
-from bullet import Bullet 
+from Classes.game import Game
+from Classes.player import Player
+from Classes.enemy import Enemy
+from Classes.bullet import Bullet 
 
+#call the methods from other classes
 def main():
     
     pygame.init()
 
+    #creating objects 
     game = Game()
     player = Player()
     enemy = Enemy ()
     bullet = Bullet ()
 
+    #Ensuring the game runs at a constistent speed of 60 frames per second
     clock = pygame.time.Clock()
     run = True
     while run:
@@ -22,7 +25,7 @@ def main():
             if event.type == pygame.QUIT:
                 run = False
   
-
+        #calling the methods from the respective classes
         game.draw_window()
 
         player.draw_player()
@@ -34,7 +37,7 @@ def main():
         
         bullet.update()
 
-
+    
     pygame.quit()
 
 if __name__ == "__main__":

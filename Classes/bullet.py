@@ -1,8 +1,8 @@
 import pygame
 import os
-from player import Player
-from game import Game
-from enemy import Enemy
+from Classes.player import Player
+from Classes.game import Game
+from Classes.enemy import Enemy
 pygame.mixer.init()
 
 BLUE = (209,238,238)
