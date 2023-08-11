@@ -10,7 +10,7 @@
 <h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
 <p align="center">
-    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=600 height=250/>
+    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=600 height=170/>
 </p>
 
 ## Table of Contents
@@ -19,10 +19,10 @@
 - [Technical Requirements](#technical-requirements)
 - [Project Structure](#project-structure)
 - [Gameplay Features](#gameplay-features)
-- [How to Play](#How-to-play)
+- [How to Play](#how-to-play)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [Acknowledgments] (#acknowledgments)
+- [Contributions](#contributions)
+- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ## Description
@@ -97,12 +97,15 @@ pipenv run python app.py
 python -m pip install -U pygame==2.5.0 --user
 ```
 
-## How to Play:
+## How to Play
 Run the game by executing the main script.
 
 Arrow Left: Move Harry left
+
 Arrow Right: Move Harry right
+
 Arrow Up: Move Harry up
+
 Arrow Down: Move Harry down
 
 Left Shift: Shoot spells
@@ -113,16 +116,19 @@ The game relies on the following libraries:
 
 - Pygame: A web application framework for building interactive web applications with Python.
 
-## Contributions:
+## Contributions
 
 Contributions to the game are welcome! If you'd like to add features, fix bugs, or enhance the gameplay, feel free to fork this repository and create a pull request.
 
-## Acknowledgments:
+## Acknowledgments
 
 This game was inspired by the magical world of Harry Potter and created using the Pygame library, a fantastic tool for game development in Python.
 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+Enjoy the thrilling adventure of Harry vs. Dementors and show your mastery in defeating the dark forces!
 
 
