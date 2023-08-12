@@ -20,6 +20,10 @@ class Enemy(Game):
         self.y = 100
         self.left = True
     
+       #having the enemy appear on the screen 
+    def draw_enemy(self):
+        self.window.blit(self.dementor, (self.x, self.y))
+        pygame.display.update()
     
     def update(self):
         # Move the dementor from right to left
@@ -36,7 +40,9 @@ class Enemy(Game):
     
         # print(self.x + self.width)
         assert self.x + self.width, "Enemy was not reset on screen boundary properly"
-    #having the enemy appear on the screen 
-    def draw_enemy(self):
-        self.window.blit(self.dementor, (self.x, self.y))
-        pygame.display.update()
+ 
+    def enemy_display_points(self):
+        dementor_lives =10
+        self.font = pygame.font.SysFont("Verdana", 30)
+        lives_label = self.font.render(f"dementor lives: {dementor_lives}", 1, (255, 255, 255))
+        self.window.blit(lives_label, (self.win_width - lives_label.get_width() -10, 10))

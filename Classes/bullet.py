@@ -7,6 +7,11 @@ import random
 # from enemy import Enemy
 pygame.mixer.init()
 
+
+
+# BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join('Assets', 'Grenade+1.mp3'))
+# BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join('Assets', 'Gun+Silencer.mp3'))
+
 BLUE = (209,238,238)
 
 bullet_state = "ready" #can't see the bullet on screen  

@@ -34,6 +34,7 @@ def main():
          
         enemy.draw_enemy()
         enemy.update()
+        enemy.enemy_display_points()
         
         bullet.bullet_movement()
   

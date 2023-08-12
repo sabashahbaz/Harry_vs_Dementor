@@ -5,14 +5,6 @@ pygame.font.init()
 
 USER_IMAGE = pygame.image.load(os.path.join('../Assets', 'user.png'))
 
-
-# BULLET_HIT_SOUND = pygame.mixer.Sound(os.path.join('Assets', 'Grenade+1.mp3'))
-# BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join('Assets', 'Gun+Silencer.mp3'))
-user_bullets = []
-RED = (255, 0, 0)
-BLACK = (0,0,0)
-# BORDER = pygame.Rect(900//2 -5, 0, 5, 500)
-
 #initiating the player class with its width, height and position 
 class Player(Game):
     def __init__(self):
@@ -27,15 +19,12 @@ class Player(Game):
     def draw_player(self):
         self.user_image = pygame.transform.rotate(pygame.transform.scale(USER_IMAGE, (self.player_width, self.player_height)), 0)
         self.window.blit(self.user_image, (self.player_x, self.player_y))
-        # pygame.draw.rect(self.window, BLACK, BORDER)
-        # for bullet in user_bullets:
-        #     pygame.draw.rect(self.window,RED, bullet)
 
     #defining the keys that are pressed and moving the player
     #checking to see which keys are pressed 
     def player_movement(self):
         keys_pressed = pygame.key.get_pressed() #
-        if keys_pressed[pygame.K_LEFT] and self.player_x >= 0: #left (if player x position minus vel <0 )
+        if keys_pressed[pygame.K_LEFT] and self.player_x >= 0: #left 
             self.player_x -= self.player_vel
         if keys_pressed[pygame.K_RIGHT] and self.player_x + self.player_width < self.win_width: #right
             self.player_x += self.player_vel
@@ -55,7 +44,6 @@ class Player(Game):
         self.window.blit(lives_label, (self.win_width - lives_label.get_width() -10, 10))
 
 
-#pressing the space bar and having a bullet fired
 
 
 
