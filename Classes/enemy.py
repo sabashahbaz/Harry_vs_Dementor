@@ -3,7 +3,7 @@ import os
 import random
 pygame.font.init()
 from game import Game
-from player import Player
+
 
 DEMENTOR_IMAGE = pygame.image.load(os.path.join('../Assets', 'death_eater.png'))
 
