@@ -11,7 +11,7 @@
 
 
 <p style="text-align:center;"><img src="Assets/points0.gif" width="400" height="500"></p>
-## Table of Contents
+Table of Contents
 
 - [Description](#description)
 - [Technical Requirements](#technical-requirements)
