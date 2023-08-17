@@ -24,7 +24,7 @@
 
 ## Description
 
-"Harry vs. Dementors" is an game developed using the Python programming language and the Pygame library. In this game, players take on the role of Harry Potter, to shot spells at the Dementor,
+"Harry vs. Dementors" is a game developed using the Python programming language and the Pygame library. In this game, players take on the role of Harry Potter, to shot spells at the Dementor,
 
 ## Technical Requirements
 
