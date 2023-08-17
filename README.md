@@ -39,7 +39,7 @@ Control Harry Potter's movement using arrow keys.
 Shoot spells at the Dementor using the left shift key to eliminate them.
 Defeating Dementors earns you points, while getting hit by their spells reduces your health.
 The game features dynamic visuals, including character animations and spell effects, thanks to the Pygame library.
-
+git o
 ## Installation: 
 
 1. Clone this repository to your local machine:
