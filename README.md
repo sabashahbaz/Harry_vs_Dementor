@@ -9,12 +9,8 @@
 <h1 align="center"><b>My First Game: Harry Potter vs Dementors</b></h1>
 <h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
-<p align="center">
 
-![GIF Demo](Assets/harryPotterGif.gif)
- 
-</p>
-
+<p style="text-align:center;"><img src="Assets/points0.gif" width="400" height="500"></p>
 ## Table of Contents
 
 - [Description](#description)
@@ -28,7 +24,7 @@
 
 ## Description
 
-"Harry vs. Dementors" is an exciting game developed using the Python programming language and the Pygame library. In this game, players take on the role of Harry Potter, who must fend off waves of Dementors that are attacking from the top of the screen. As Harry, you'll have to dodge the Dementors' shots while using your magical abilities to shoot them down.
+"Harry vs. Dementors" is an game developed using the Python programming language and the Pygame library. In this game, players take on the role of Harry Potter, to shot spells at the Dementor,
 
 ## Technical Requirements
 
@@ -39,10 +35,8 @@ To run the game locally, you need the following:
 
 ## Gameplay Features
 
-Control Harry Potter's movement at the bottom of the screen using arrow keys.
-Shoot spells at the Dementors using the left shift key to eliminate them.
-Dodge the incoming shots from the Dementors to avoid losing health.
-Dementors at the top of the screen shoot spells towards Harry, adding an element of challenge and strategy to the game.
+Control Harry Potter's movement using arrow keys.
+Shoot spells at the Dementor using the left shift key to eliminate them.
 Defeating Dementors earns you points, while getting hit by their spells reduces your health.
 The game features dynamic visuals, including character animations and spell effects, thanks to the Pygame library.
 
