@@ -83,6 +83,12 @@ class Enemy(object):
         self.enemy_hit_box = (self.enemy_x + 15, self.enemy_y + 10 , 60, 100) #hitbox around the enemy sprite, so when the bulllet hits the enemy it will trigger collision reaction (60 = width of hit box 100 = height)
         self.user_image = pygame.transform.rotate(pygame.transform.scale(ENEMY_IMAGE, (self.enemy_width, self.enemy_height)), 0)
         WIN.blit(self.user_image, (self.enemy_x, self.enemy_y))
+
+    #self.enemy_hit_box = (self.enemy_x, self.enemy_y, 60, 100)
+    #enemy.enemy_hit_box[0] = x-coordinate 
+    #enemy.enemy_hit_box[1] = y-coordinate
+    #enemy.enemy_hit_box[2] = width 
+    #enemy.enemy_hit_box[3] = height 
     
     #enemy moving across the screen 
     def move_enemy(self):
@@ -124,14 +130,6 @@ player_bullets = [] #the initial empty list of the player's bullets
 run = True
 enemybullets = True
 
-#Defining hit_box dimensions 
-bottom_of_enemy_hit_box = (enemy.enemy_y + 10) + 60 
-width_of_enemy_hit_box = 60 
-left_of_enemy_hit_box = enemy.enemy_hit_box[0]
-
-
-
-
 #the main game loop 
 while run:
     #contorl the frame rate of game loop to be 60 frames per second
@@ -151,9 +149,8 @@ while run:
 
     #when the bullet hits the enemy 
     for bullet in player_bullets:
-        if bullet.bullet_y - bullet.radius < enemy.enemy_hit_box[1] + enemy.enemy_hit_box[3] and bullet.bullet_y - bullet.radius > enemy.enemy_hit_box[1]:
+        if bullet.bullet_y - bullet.radius < enemy.enemy_hit_box[1] + enemy.enemy_hit_box[3] and bullet.bullet_y - bullet.radius > enemy.enemy_hit_box[1]:  
             if bullet.bullet_x - bullet.radius > enemy.enemy_hit_box[0] and bullet.bullet_x - bullet.radius < enemy.enemy_hit_box[0] + enemy.enemy_hit_box[2]:
-                # enemy.hit_enemy()
                 player_points += 1
                 player_bullets.pop(player_bullets.index(bullet)) 
         if bullet.bullet_y < 700 and bullet.bullet_y > 0:

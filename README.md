@@ -6,18 +6,19 @@
     <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-%2320232a?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
 </p>
 
-<h1 align="center"><b>Harry Potter vs Dementors</b></h1>
+<h1 align="center"><b>My First Game: Harry Potter vs Dementors</b></h1>
 <h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
 <p align="center">
-    <img src="https://t4.ftcdn.net/jpg/03/41/87/27/360_F_341872749_POW9lsU8txqBhJLGxqrt0PuQq8zbvd8B.jpg" alt="Project Banner" width=600 height=170/>
+
+![GIF Demo](Assets/harryPotterGif.gif)
+ 
 </p>
 
 ## Table of Contents
 
 - [Description](#description)
 - [Technical Requirements](#technical-requirements)
-- [Project Structure](#project-structure)
 - [Gameplay Features](#gameplay-features)
 - [How to Play](#how-to-play)
 - [Dependencies](#dependencies)
@@ -35,28 +36,6 @@ To run the game locally, you need the following:
 
 - Python 3.7 or later
 
-
-## Project Directory Hierarchy
-
-Upon successful setup (see **Getting Started**), you should see the following project directory hierarchy.
-
-```
-Harry_VS_DEMENTOR-dashboard/
-├── __pycache__
-├── .venv
-├── Assets
-├── Classes
-│  └──  bullet.py
-│  └──  enemy.py
-│  └──  game.py
-│  └──  main.py
-│  └──  player.py
-├── Pipfile
-└── README.md
-```
-- Classes : Main application file containing the Dash app code and callbacks.
-- `Pipfile` and `Pipfile.lock`: Files specifying project dependencies when using `pipenv`.
-- `README.md`: Project documentation providing an overview, setup instructions, and other details.
 
 ## Gameplay Features
 
@@ -100,13 +79,13 @@ python -m pip install -U pygame==2.5.0 --user
 ## How to Play
 Run the game by executing the main script.
 
-Arrow Left: Move Harry left
+⬅️ Arrow Left: Move Harry left
 
-Arrow Right: Move Harry right
+➡️ Arrow Right: Move Harry right
 
-Arrow Up: Move Harry up
+⬆️ Arrow Up: Move Harry up
 
-Arrow Down: Move Harry down
+⬇️ Arrow Down: Move Harry down
 
 Left Shift: Shoot spells
 
