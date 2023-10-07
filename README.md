@@ -6,11 +6,14 @@
     <a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-%2320232a?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
 </p>
 
-<h1 align="center"><b>My First Game: Harry Potter vs Dementors</b></h1>
+<h1 align="center"><b>Magical Duel</b></h1>
 <h4 align="center"> A simple game, created using Pygame. Survive as long as possible by avoiding the Dementors' spells and eliminating them to earn points. Challenge your reflexes and strategic thinking to achieve a high score and become the ultimate defender against the dark forces.  </h4>
 
 
-<p style="text-align:center;"><img src="Assets/points0.gif" width="400" height="500"></p>
+<p align="center">
+    <img src="Assets/points0.gif" width="400" height="430"/>
+</p>
+
 
 ## Table of Contents
 
@@ -46,7 +49,7 @@ git o
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/jonrosenblum/nfl-player-stats-dashboard.git
+git clone https://github.com/sabashahbaz/Magical_Duel.git
 ```
 
 2. Navigate to the project directory:

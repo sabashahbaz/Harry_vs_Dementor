@@ -83,12 +83,6 @@ class Enemy(object):
         self.enemy_hit_box = (self.enemy_x + 15, self.enemy_y + 10 , 60, 100) #hitbox around the enemy sprite, so when the bulllet hits the enemy it will trigger collision reaction (60 = width of hit box 100 = height)
         self.user_image = pygame.transform.rotate(pygame.transform.scale(ENEMY_IMAGE, (self.enemy_width, self.enemy_height)), 0)
         WIN.blit(self.user_image, (self.enemy_x, self.enemy_y))
-
-    #self.enemy_hit_box = (self.enemy_x, self.enemy_y, 60, 100)
-    #enemy.enemy_hit_box[0] = x-coordinate 
-    #enemy.enemy_hit_box[1] = y-coordinate
-    #enemy.enemy_hit_box[2] = width 
-    #enemy.enemy_hit_box[3] = height 
     
     #enemy moving across the screen 
     def move_enemy(self):
@@ -172,9 +166,3 @@ while run:
     
 
 pygame.quit()
-
-#self.enemy_hit_box = (self.enemy_x, self.enemy_y, 60, 100)
-    #enemy.enemy_hit_box[0] = x-coordinate 
-    #enemy.enemy_hit_box[1] = y-coordinate
-    #enemy.enemy_hit_box[2] = width 
-    #enemy.enemy_hit_box[3] = height 
